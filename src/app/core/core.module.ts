@@ -10,14 +10,14 @@ import { AppRoutingModule } from '../app-routing.module';
 import { AuthService } from '../auth/auth.service';
 import { DataStorageService } from '../shared/data-storage.service';
 import { RecipeService } from '../recipes/recipe.service';
-import { ShoppingListService } from '../shopping-list/shopping-list.service';
+// import { ShoppingListService } from '../shopping-list/shopping-list.service';
 
 @NgModule({
   declarations: [HeaderComponent, HomeComponent],
   imports: [SharedModule, AppRoutingModule],
   exports: [AppRoutingModule, HeaderComponent],
   providers: [
-    ShoppingListService,
+    // ShoppingListService,
     RecipeService,
     DataStorageService,
     AuthService,
